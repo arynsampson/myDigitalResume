@@ -3,6 +3,7 @@ body {
   font-size: 110%;
   background-color: #fcf7f8;
   color: black;
+  margin: 0;
 }
 
 header {
@@ -21,26 +22,36 @@ main {
   display: flex;
 }
 
-nav {
+.navbar {
   width: 20%;
   background-color: #45462a;
   padding: 20px;
-  flex: 1;
 }
 
 nav ul {
   padding-left: 0;
 }
 
-nav li {
+.nav-item {
   list-style: none;
 }
 
-nav a {
+.nav-item a {
   color: white;
 }
 
-h2#menu {
+h3 a:visited {
+  color: black;
+}
+
+h3 a:hover {
+  color: orange;
+}
+a:hover {
+  color: orange;
+}
+
+#menu {
   margin-top: 0;
 }
 
@@ -49,12 +60,18 @@ article {
   flex: 5;
 }
 
-.whiteFont {
-  color: white;
+article h2 {
+  font-size: 34px;
+  color: orange;
 }
 
 footer {
   background-color: #343330;
   text-align: center;
   padding: 10px 0;
+}
+
+.contact-details {
+  color: white;
+  padding-left: 35px;
 }
